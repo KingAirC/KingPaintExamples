@@ -1,8 +1,6 @@
 import time
 import king
 
-# king.KingFigure().init_delay_update = True
-
 o = king.point(0, 0)
 o.set_visible(False)
 r = 18
@@ -29,5 +27,3 @@ for i in range(n):
     line.set_color('#EE6AA7')
     l_lst.append(line)
     tow_pow = nxt
-
-king.KingFigure().init_delay_update = False

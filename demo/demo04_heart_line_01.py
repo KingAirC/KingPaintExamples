@@ -1,7 +1,5 @@
 import king
 
-king.KingFigure().init_delay_update = True
-
 n = 8
 
 f = king.KingFunction(essential_data={'function': lambda x: 1, 'x_min': None, 'x_max': None, 'count': None})
